@@ -1,0 +1,28 @@
+{
+  "name": "wp-headless-faustjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "3.10.8",
+    "@faustwp/core": "3.0.3",
+    "@wordpress/base-styles": "5.2.0",
+    "@wordpress/block-library": "9.2.0",
+    "classnames": "2.5.1",
+    "graphql": "16.9.0",
+    "next": "14.2.4",
+    "next-secure-headers": "2.2.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "sass": "1.77.6"
+  }
+}
